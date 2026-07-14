@@ -1,13 +1,13 @@
 # weather-prediction
 An ML Model developed to predict the Weather based on meteorological data
 
-## Business Problem
+## 🎯 Business Problem
 
 The objective of this project is to build a machine learning model that predicts weather types (rain, drizzle, fog, sun, and snow) based on meteorological measurements including precipitation, wind speed, and temperature data. This is a multi-class classification problem with imbalanced classes.
 
 **Key Business Question:** Can we accurately predict weather conditions using weather measurements to help in weather forecasting applications?
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 project_1__Weather_Prediction.ipynb
@@ -27,7 +27,7 @@ project_1__Weather_Prediction.ipynb
 seattle-weather.csv - Input dataset containing historical weather data
 ```
 
-## Tools and Programming Languages
+## ⚒️ Tools and Programming Languages
 
 - **Language:** Python 3
 - **Data Processing:** 
@@ -39,7 +39,7 @@ seattle-weather.csv - Input dataset containing historical weather data
 - **Data Normalization:** Custom normalization functions for feature scaling
 - **Visualization:** Matplotlib (distribution plots and analysis)
 
-## Key Insights & Results
+## 🔑 Key Insights & Results
 
 ### Dataset Characteristics
 - **Classes:** 5 weather types (rain, drizzle, fog, sun, snow)
@@ -56,7 +56,7 @@ seattle-weather.csv - Input dataset containing historical weather data
 - Features normalized using min-max scaling (dividing by max value)
 - Dataset prepared for supervised learning tasks
 
-### Best Model & Performance
+### 🏆 Best Model & Performance
 
 **Winning Model:** Random Forest Classifier with SMOTE (Synthetic Minority Over-sampling Technique)
 
